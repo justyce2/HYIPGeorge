@@ -1,0 +1,90 @@
+/*  support Area CSS  */
+.support-ticket-wrapper .panel-body img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%; }
+  
+  .support-ticket-wrapper .panel-heading {
+    font-size: 16px; }
+  
+  .support-ticket-wrapper button {
+    border: 0px; }
+  
+  .support-ticket-wrapper .panel-footer {
+    background-color: #ffffff;
+    padding: 20px 0px 0px; }
+  
+  .support-ticket-wrapper table tr > td {
+    width: 100%;
+    border-top: none; }
+  
+  .support-ticket-wrapper .panel {
+    border-color: #dddddd; }
+  
+  .support-ticket-wrapper .panel,
+  .support-ticket-wrapper .panel-heading,
+  .support-ticket-wrapper textarea,
+  .support-ticket-wrapper button {
+    border-radius: 0; }
+  
+  .support-ticket-wrapper .ticket-date {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 0px; }
+  
+  .single-reply-area.user {
+    background-color: #ddd;
+    padding: 10px; }
+  
+  .support-ticket-wrapper .panel-body img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%; }
+  
+  .support-ticket-wrapper .single-reply-area.user {
+    padding: 20px 30px; }
+  
+  .support-ticket-wrapper .single-reply-area.user .reply-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  
+  .support-ticket-wrapper .single-reply-area.user .reply-area .left {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  
+  .support-ticket-wrapper .single-reply-area.user .reply-area .right {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 30px; }
+  
+  .support-ticket-wrapper .single-reply-area.admin {
+    padding: 20px 30px;
+    background: #f1f1f1; }
+  
+  .support-ticket-wrapper .single-reply-area.admin .reply-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  
+  .support-ticket-wrapper .single-reply-area.admin .reply-area .left {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 30px; }
+  
+  .support-ticket-wrapper .single-reply-area.admin .reply-area .right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: right; }

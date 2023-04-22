@@ -1,0 +1,29 @@
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@include breakpoint(max-lg) {
+		flex-wrap: wrap;
+		.footer-link {
+			justify-content: center;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		justify-content: center;
+		text-align: center;
+	}
+}
+.footer-link {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 -12px;
+	li {
+		padding: 0 12px;
+		a {
+			text-transform: capitalize;
+			color: var(--white-clr);
+			font-family: var(--heading-fonts);
+			padding: 5px;
+		}
+	}
+}

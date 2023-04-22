@@ -1,0 +1,56 @@
+.cp-container {
+    position: relative;
+  }
+  .cp-container .colorpicker-bs-popover {
+    -webkit-transform: none !important;
+            transform: none !important;
+    top: 100% !important;
+    width: 100%;
+    max-width: none;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker {
+    width: 100%;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-saturation,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-hue,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-alpha,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-preview,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-bar {
+    width: 100%;
+    box-shadow: none;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-saturation {
+    height: 150px;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-saturation .colorpicker-guide {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin: -5px 0 0 -5px;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-hue,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-alpha,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-preview,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-bar {
+    margin-top: 10px;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-hue,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-alpha,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-preview {
+    height: 30px;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-alpha,
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-preview {
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+  }
+  .cp-container .colorpicker-bs-popover .colorpicker .colorpicker-preview {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+  
+  .cp-container {
+    max-width: 100%;
+    margin: 2rem auto;
+  }
+  

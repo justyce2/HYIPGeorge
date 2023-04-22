@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lumticetra/public_html/george/
+    - /bin/cp -R images $DEPLOYPATH

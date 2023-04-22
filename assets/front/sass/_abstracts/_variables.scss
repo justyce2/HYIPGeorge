@@ -1,0 +1,131 @@
+$bootstrap-sass-asset-helper: false !default;
+
+$title: #3d065f;
+
+$success-color: #0ead69;
+$secondary-color: #4c6572;
+$danger-color: #d90429;
+$warning-color: #ee9b00;
+$info-color: #00b4d8;
+$primary-color: #0c67a3;
+
+// var(--border-clr): #e8eaff;
+
+$ash-color: #fafafa;
+$white: #fff;
+$lallu-color: #e883ae;
+$dark-color: #192a56;
+$dark-bg: #131b32;
+$light-color: #daddff;
+$black: #000;
+$section-bg-2: #fafafa;
+$whatsapp: #25d366;
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$pinterest: #007bb5;
+$skype: #2fb7df;
+$youtube: #cd201f;
+$google: #dd4b39;
+$camera: #e4405f;
+$instagram: #e4405f;
+$tumblr: #34465d;
+$behance: #1769ff;
+$star: #e9ba17;
+$green: #0be881;
+$green-h: #0fbcf9;
+$red: #f53b57;
+$yellow: #dec32b;
+$nell: #212fb4;
+$navy: #d8e0f3;
+$placeholder: #a1a1a2;
+$name-dec: #3f485d;
+$futbol: #db3776;
+$vimeo: #1ab7ea;
+$dribble: #ea4c89;
+
+$transition: all ease 0.3s;
+
+$base2: #92278f;
+$base3: #8dc63f;
+$base4: #00bfff;
+
+.bg--gradient-light {
+	background: #f3f9ff;
+}
+.bg--gradient,
+.bg--shapes::before {
+	background: linear-gradient(
+		to left top,
+		#45108a,
+		#440d7f,
+		#420a74,
+		#400769,
+		#3d065f
+	);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+:root {
+	--base-clr: #d5a953;
+	--base-rgb: 213, 170, 83;
+	--body-clr: #536479;
+	--title-clr: #3d065f;
+	--title-rgb: 61, 6, 95;
+	--body-bg: #ffffff;
+	--section-bg: #f3f9ff;
+	--dark-clr: #3d065f;
+	--dark-rgb: 61, 6, 95;
+	--white-clr: #ffffff;
+	--white-rgb: 255, 255, 255;
+	--primary-clr: #0c67a3;
+	--primary-rgb: 12, 103, 163;
+	--border-clr: #e5e5e5;
+	--border-dark: #283c40;
+	--border-dark-only: transparent;
+
+	--heading-fonts: "Jost", sans-serif;
+	--body-fonts: "Roboto", sans-serif;
+	--base-shadow-sm: 0 0 1px var(--base-clr), 0 0 3px var(--base-clr);
+	--base-shadow: 0 0 1px var(--base-clr), 0 0 2px var(--base-clr),
+		0 0 3px var(--base-clr), 0 0 5px var(--base-clr), 0 0 7px var(--base-clr);
+	--light-clr: #daddff;
+}
+.dark-theme {
+	--base-clr: #d5a953;
+	--base-rgb: 213, 170, 83;
+	--body-clr: #daddff;
+	--title-clr: #ffffff;
+	--title-rgb: 255, 255, 255;
+	--section-bg: #11272c;
+	--body-bg: #0e2429;
+	--dark-clr: #142120;
+	--dark-rgb: 20, 33, 32;
+	--white-clr: #ffffff;
+	--white-rgb: 255, 255, 255;
+	--border-clr: #283c40;
+	--border-dark: #283c40;
+	--border-dark-only: #283c40;
+	.bg--shapes::before,
+	.bg--gradient,
+	.bg--gradient-light {
+		background: linear-gradient(
+			to left top,
+			#142135,
+			#0b2231,
+			#0a232b,
+			#0e2225,
+			#142120
+		);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+	.bg--shapes::before {
+		background: rgba(var(--white-rgb), 0.031);
+	}
+}

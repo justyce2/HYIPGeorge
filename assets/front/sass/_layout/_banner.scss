@@ -1,0 +1,43 @@
+/*Banner*/
+.banner-section {
+	overflow: hidden;
+}
+.banner-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: center;
+	padding: 130px 0;
+	@include breakpoint(md) {
+		padding: 130px 0;
+		min-height: calc(100vh - 42px - 75px);
+	}
+}
+.banner-cont {
+	width: 100%;
+	max-width: 620px;
+}
+.banner-cont {
+	.title {
+		margin-bottom: 25px;
+	}
+	p {
+		font-size: 18px;
+		line-height: 1.5;
+		max-width: 570px;
+		margin-bottom: 35px;
+	}
+	@include breakpoint(sm) {
+		p {
+			font-size: 20px;
+		}
+	}
+}
+.banner-charts {
+	background: #1d2330;
+	border-bottom: 1px solid var(--border-dark);
+	border-top: 1px solid var(--border-dark);
+}
+.banner-section {
+	position: relative;
+}

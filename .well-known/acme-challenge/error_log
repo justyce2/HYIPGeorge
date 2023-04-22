@@ -1,0 +1,2 @@
+[14-Jan-2023 03:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lumticetra/public_html/george/.well-known/acme-challenge/index.php:1) in /home/lumticetra/public_html/george/.well-known/acme-challenge/index.php on line 2
+[29-Mar-2023 06:09:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lumticetra/public_html/george/.well-known/acme-challenge/index.php:1) in /home/lumticetra/public_html/george/.well-known/acme-challenge/index.php on line 2
